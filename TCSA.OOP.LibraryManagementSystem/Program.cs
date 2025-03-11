@@ -1,4 +1,6 @@
 ﻿using TCSA.OOP.LibraryManagementSystem;
 
-UserInterface userInterface = new UserInterface();
-userInterface.MainMenu();
+var book1 = new Book("Hamlet", 200);
+var book2 = new Book("Great Gatsby", 300);
+
+Console.ReadLine();
